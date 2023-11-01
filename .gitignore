@@ -1,7 +1,5 @@
-*.csv
-*.h5
-*.DS_Store
-*.log
-*.ipynb
-*.png
+assets/*
+data/*
+logs/*
+model/*
 .venv

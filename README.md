@@ -18,11 +18,11 @@ docker build -t receipts-prediction-app .
 ```
 
 ### 3. Run the Docker Container:
-After building the image, run the Docker container using:
+After building the image, if running the Docker container for the first time use:
 ```
 docker run -i -p 8501:8501 -e TRAIN=y receipts-prediction-app
 ```
-if you trained once and only want to deploy the web set env variable **TRAIN=n**
+if you trained once and only want to deploy the web, set env. variable **TRAIN=n**
 
 ### 4. Access the App:
 Once the container is running, you can access the Streamlit app by opening your browser and navigating to:
