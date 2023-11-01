@@ -3,3 +3,4 @@ data/*
 logs/*
 model/*
 .venv
+*.DS_Store
