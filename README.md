@@ -7,8 +7,8 @@ This application predicts the number of scanned receipts for each month in 2022 
 ## Setup and Run:
 ### 1. Clone the repository:
 ```
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/hyeniii/fetch-ML-app
+cd fetch-ML-apps
 ```
 
 ### 2. Build the Docker Image:
