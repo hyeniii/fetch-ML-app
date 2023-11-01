@@ -1,0 +1,6 @@
+assets/*
+model/*
+logs/*
+*.DS_Store
+*.ipynb
+.venv/
