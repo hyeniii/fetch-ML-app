@@ -6,10 +6,6 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 
-SEED = 42
-np.random.seed(SEED)
-tf.random.set_seed(SEED)
-
 lookback = 120 # This represents how many previous months we consider
 
 def main():
